@@ -1,0 +1,7 @@
+step1 : read the first subject marks
+step2 : read the second subject  marks
+step3 : read the third subject  marks
+step4 : add all  marks
+step5 : divide total marks by total number of subject
+step6 : display total marks
+step7 : diaplay average marks

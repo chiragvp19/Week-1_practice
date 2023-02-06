@@ -1,0 +1,5 @@
+step1 : read basic salary
+step3 : compute hra hra=(87*basic salary)/100
+step4 : compute Da Da=(89*basic salary)/100
+step5 : compute basic salary+hra+da
+step6 : diaplay gross salary
