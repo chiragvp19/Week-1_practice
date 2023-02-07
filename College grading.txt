@@ -1,0 +1,9 @@
+Step1 : read project marks
+step2 : read extrenal marks
+step3 : read internals marks
+step4 : check if all the marks is greater than 50
+step5 : if not display fail
+step6 : if yes compute total marks total=(PM*70)/100+(EM*20)/100+(IM*10)/100
+step7 : if total is >=90 display A grade
+step8 : if total is >=70&<=90 display B grade
+step9 : if total is >=50&<=70 display C grade
