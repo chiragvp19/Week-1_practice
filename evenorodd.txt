@@ -1,13 +1,14 @@
 begin
-number num1
-print("Enter the number")
-input num1
-if(num1%2=0)
+number num=1
+while(num<=10)
 {
-print("number is even")
+    if(num%2=0)
+{
+    print("even number:",num)
 }
-else
+    else
 {
-print("number is odd")
+    print("odd number:",num)
+}
 }
 end

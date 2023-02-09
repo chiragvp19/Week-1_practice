@@ -1,0 +1,14 @@
+begin
+number f=1,n,total=0
+print("enter the number")
+input n
+while(f<=n/2)
+{
+  if(n%f==0)
+  {
+   total=total+1
+}
+   f=f+1
+}
+print(total)
+end

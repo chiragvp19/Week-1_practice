@@ -1,0 +1,7 @@
+begin
+number i
+for(i=10;i%2==0;i--)
+{
+ print(i)
+}
+end

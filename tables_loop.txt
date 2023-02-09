@@ -1,0 +1,10 @@
+begin
+number num,i,mu=0
+print(enter the number)
+input num
+for(i=1:i<=10;i++)
+{
+  mu=num*i
+  print("num*i=mu",num,i,mu)
+}
+end

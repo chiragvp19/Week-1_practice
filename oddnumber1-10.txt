@@ -1,0 +1,16 @@
+odd numbers from 1-10
+begin
+    number num=1
+while(num<=10)
+{
+    if(num%2!=0)
+{
+    num=num+1
+}
+    else
+{
+    print(num)
+    num=num+1
+    }
+}
+end

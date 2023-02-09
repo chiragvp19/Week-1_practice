@@ -1,0 +1,18 @@
+begin
+number num=1,esum=0,osum=0
+while num<=10
+{
+ if(num%2==0)
+{
+ esum=esum+num
+ num=num+1
+}
+ else
+{
+osum=osum+num
+num=num-1
+}
+}
+print("esum")
+print("osum")
+end

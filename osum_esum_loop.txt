@@ -1,0 +1,14 @@
+begin
+number n,esum=0,osum=0,i
+ for(i=1:i<=10 && i%2==0;i++)
+  {
+    esum=esum+i
+  }
+for(i=1:i<=10 && i%2!=0;i++)
+  {
+    osum=osum+i
+  }
+print(esum)
+print(osum)
+
+end

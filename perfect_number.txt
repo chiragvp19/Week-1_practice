@@ -1,0 +1,21 @@
+begin 
+     number num,i=1,p=0
+     print ("enter the number to get factors")
+     input num
+     while (i<num/2)
+{
+        if (num%i==0)
+        {
+           p=p+i
+}
+           i=i+1
+}
+     if (p==num)
+      {
+        print("It is a perfect number")
+      }
+     else
+      {
+       print("It is not a perfect number")
+      }
+end
