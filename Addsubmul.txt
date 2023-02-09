@@ -1,0 +1,16 @@
+begin
+number add,sub,mul,div
+number num1,num2
+print("enter the first number:")
+input num1
+print("enter the second number:")
+input num2
+add=num1+num2
+sub=num1-num2
+mul=num1*num2
+div=num1/num2
+print("addition is:",add)
+print("substraction is :",sub)
+print("multiplication is:"mul)
+print("divison is :",div)
+end

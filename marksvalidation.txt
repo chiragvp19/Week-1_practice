@@ -1,0 +1,13 @@
+begin
+number marks
+print("enter the marks")
+input marks
+if(marks>=0&&marks<=100)
+{
+print("marks is valid")
+}
+else
+{
+printf("marks is invalid")
+}
+end

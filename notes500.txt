@@ -1,0 +1,19 @@
+begin
+number amt,n1,n2,n3
+print("enter the amount")
+input amt
+if(amt<100)
+{
+print("invalid amount")
+}
+else
+{
+n1=amt/500;
+amt=amt%500
+n2=amt/200
+amt=amt/200
+n3=amt/100
+amt=amt%100
+}
+print("500rps notes,200rps notes,100rps notes",n1,n2,n3)
+end

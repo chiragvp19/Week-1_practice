@@ -1,0 +1,34 @@
+number pm,im,em,total
+print("enter the project marks")
+input pm
+print("enter the internal marks")
+input im
+print("enter the external marks")
+input em
+if(pm<50)
+{
+print("Fail in Project",pm)
+}
+elseif(im<50)
+{
+print("Fail in internal",im)
+} 
+else
+{
+print("Fail in external",em)
+}
+total=(70*pm)/100+(20*em)/100+(10*im)/100
+
+if(total>=90)
+{
+print("A grade")
+}
+else if(total>=70)
+{
+print("B grade")
+}
+else
+{
+print("C grade")
+}
+end
